@@ -1,0 +1,55 @@
+<<<<<<< HEAD
+body{
+    background-color: #e0ecf2;
+}
+
+.titulo{
+    color:#27576a;
+    text-align: center;
+}
+
+.bienvenidos{
+    display: grid;
+    grid-column: 2;
+    background-color: #457387;
+    color: white;
+}
+
+.parrafo{
+    display: grid;
+    background-color: #6290a4;
+    color: white;
+    grid-column-end: 2;
+}
+
+main{
+    padding: 5px;
+}
+=======
+body{
+    background-color: #e0ecf2;
+}
+
+.titulo{
+    color:#27576a;
+    text-align: center;
+}
+
+.bienvenidos{
+    display: grid;
+    grid-column: 2;
+    background-color: #457387;
+    color: white;
+}
+
+.parrafo{
+    display: grid;
+    background-color: #6290a4;
+    color: white;
+    grid-column-end: 2;
+}
+
+main{
+    padding: 5px;
+}
+>>>>>>> e62da49c5d101f77ce930e0b5870bab649723854
