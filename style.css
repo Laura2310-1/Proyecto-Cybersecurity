@@ -15,9 +15,8 @@ main {
     padding: 2rem;
 }
 
-/* Contenedor con GRID */
 .grid-container {
-    display: grid; /* ← Uso de Grid */
+    display: grid; 
     grid-template-areas: 
         "bienvenida bienvenida"
         "presentacion menu";
@@ -45,11 +44,10 @@ main {
     border-radius: 8px;
 }
 
-/* Menú con Flexbox */
 .menu ul {
     list-style: none;
     padding: 0;
-    display: flex; /* ← Uso de Flexbox */
+    display: flex; 
     flex-direction: column;
     gap: 0.5rem;
 }
@@ -69,7 +67,7 @@ main {
     color: white;
 }
 
-/* Diseño responsivo */
+
 @media (max-width: 768px) {
     .grid-container {
         grid-template-areas:
