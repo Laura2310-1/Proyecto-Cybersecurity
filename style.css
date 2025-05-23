@@ -1,55 +1,87 @@
-<<<<<<< HEAD
-body{
-    background-color: #e0ecf2;
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
 }
 
-.titulo{
-    color:#27576a;
+header, footer {
+    background-color: #1f2937;
+    color: white;
     text-align: center;
+    padding: 1rem;
 }
 
-.bienvenidos{
-    display: grid;
-    grid-column: 2;
-    background-color: #457387;
+main {
+    padding: 2rem;
+}
+
+/* Contenedor con GRID */
+.grid-container {
+    display: grid; /* ← Uso de Grid */
+    grid-template-areas: 
+        "bienvenida bienvenida"
+        "presentacion menu";
+    grid-gap: 1.5rem;
+}
+
+.bienvenida {
+    grid-area: bienvenida;
+    background-color: #e3f2fd;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.presentacion {
+    grid-area: presentacion;
+    background-color: #fff3e0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: #ede7f6;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Menú con Flexbox */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* ← Uso de Flexbox */
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #4a148c;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: 1px solid #4a148c;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.menu a:hover {
+    background-color: #4a148c;
     color: white;
 }
 
-.parrafo{
-    display: grid;
-    background-color: #6290a4;
-    color: white;
-    grid-column-end: 2;
-}
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-areas:
+            "bienvenida"
+            "presentacion"
+            "menu";
+        grid-template-columns: 1fr;
+    }
 
-main{
-    padding: 5px;
+    .menu ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
-=======
-body{
-    background-color: #e0ecf2;
-}
-
-.titulo{
-    color:#27576a;
-    text-align: center;
-}
-
-.bienvenidos{
-    display: grid;
-    grid-column: 2;
-    background-color: #457387;
-    color: white;
-}
-
-.parrafo{
-    display: grid;
-    background-color: #6290a4;
-    color: white;
-    grid-column-end: 2;
-}
-
-main{
-    padding: 5px;
-}
->>>>>>> e62da49c5d101f77ce930e0b5870bab649723854
