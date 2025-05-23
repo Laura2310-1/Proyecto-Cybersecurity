@@ -4,7 +4,7 @@ body {
 }
 
 header, footer {
-    background-color: #1f2937;
+    background-color: #093676;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -31,14 +31,14 @@ main {
 
 .presentacion {
     grid-area: presentacion;
-    background-color: #fff3e0;
+    background-color: #54b4e8;
     padding: 1rem;
     border-radius: 8px;
 }
 
 .menu {
     grid-area: menu;
-    background-color: #ede7f6;
+    background-color: #759ac7;
     padding: 1rem;
     border-radius: 8px;
 }
@@ -53,10 +53,10 @@ main {
 
 .menu a {
     text-decoration: none;
-    color: #4a148c;
+    color: #144e8c;
     font-weight: bold;
     padding: 0.5rem;
-    border: 1px solid #4a148c;
+    border: 1px solid #5929b4;
     border-radius: 4px;
     transition: background 0.3s;
 }
