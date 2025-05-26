@@ -31,7 +31,10 @@ img{
     padding: 1rem;
     border-radius: 8px;
 }
-
+.informacion{
+  padding: 10px;
+  margin-bottom: 15px;
+}
 .presentacion {
     grid-area: presentacion;
     background-color: #54b4e8;
