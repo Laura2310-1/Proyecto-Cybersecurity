@@ -32,9 +32,13 @@ img{
     border-radius: 8px;
 }
 .informacion{
-  padding: 10px;
-  margin-bottom: 15px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  margin-bottom: 16px;
+  border-radius: 6.5px;
+  line-height: 1.5;
 }
+
 .presentacion {
     grid-area: presentacion;
     background-color: #54b4e8;
